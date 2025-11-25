@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "side main main main"
+    "side left right right"
+    "footer footer footer footer"
+
+    ;
+}
+
+nav{
+    grid-area: nav;
+    background: red;
+}
+
+main{
+    grid-area:main ;
+    background: blue;
+}
+
+#side{
+    grid-area: side;
+    background: yellow;
+}
+
+#left{
+    grid-area: left;
+    background:green ;
+}
+
+#right{ 
+    grid-area:right ;
+    background: purple;
+}
+footer{
+    grid-area: footer;
+    background: saddlebrown;
+}

@@ -1,0 +1,75 @@
+body{
+     /* background-image:url(green-trees-near-body-water-daytime_395237-20.avif) ;
+    background-size: cover;       /* পুরো screen কভার করবে */
+    /* background-repeat: no-repeat; /* পুনরায় pattern বানাবে না */
+    /* background-position: center;  /* image center করবে */
+    /* height: 100vh;                পুরো viewport height নেবে */
+    /* margin: 0; */ 
+
+    background-color: rgb(198, 229, 219);
+}
+#mid{
+    text-align: center;
+    /* display: inline; */
+    /* background-color: greenyellow; */
+}
+#right{
+    text-align: right;
+}
+.shift-center {
+  text-align: center;
+  margin-top: 20px;
+}
+h1{
+    display: inline;
+    background-color: brown;
+    color: white;
+    font-family: 'Gill Sans';
+    text-align: center;
+}
+h2{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    font-family: 'Gill Sans';
+    /* text-align: center; */
+     padding: 4px 10px;
+    border: 1px solid rgb(12, 12, 12);
+
+}
+
+.heading {
+    display: inline;
+    color: white;
+    font-family: 'Gill Sans';
+    text-align: center;
+    padding: 4px 10px;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 20px;
+}
+.brown {
+    background-color: brown;
+}
+.green {
+    background-color: green;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-link {
+    background-color: rgb(125, 150, 125);      
+    color: rgb(7, 3, 85);                 
+    text-decoration: none;        
+    padding: 5px 10px;  
+    border: 2px solid yellow;          
+    border-radius: 5px;           
+    /* display: inline-block;         */
+}
+
+.button-link:hover {
+    background-color: rgb(63, 137, 63);  
+}
+
